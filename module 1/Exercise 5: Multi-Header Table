@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>test page</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="stylesheet" href="" /> -->
+  </head>
+  <body>
+    <table border="2">
+      <thead>
+        <tr>
+          <th rowspan="2">Brand</th>
+          <th colspan="2">Display</th>
+          <th colspan="2">Camera</th>
+          <th rowspan="2">Battery Lift</th>
+        </tr>
+        <tr>
+          <th>Size</th>
+          <th>Resolution</th>
+          <th>Rear</th>
+          <th>Front</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Phone A</td>
+          <td>6.1</td>
+          <td>1080</td>
+          <td>12MP</td>
+          <td>8MP</td>
+          <td>18 Hours</td>
+        </tr>
+        <tr>
+          <td>Phone B</td>
+          <td>5.8</td>
+          <td>1125</td>
+          <td>12MP</td>
+          <td>7MP</td>
+          <td>20 Hours</td>
+        </tr>
+        <tr>
+          <td>Phone C</td>
+          <td>6.5</td>
+          <td>1242</td>
+          <td>15MP</td>
+          <td>10MP</td>
+          <td>22 Hours</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
