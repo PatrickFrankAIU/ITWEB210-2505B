@@ -50,6 +50,7 @@ document.getElementById('table-body').addEventListener('input', function(event) 
             let totalPrice = document.getElementById(displayPrice).textContent.replace('$', '');
             let total = document.getElementById(displayTotal).textContent
             total = sliderValue
+            document.getElementById(displayTotal).textContent = sliderValue
             let showTotal = (total * totalPrice).toFixed(2)
             let commaTotal = showTotal.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             document.getElementById(displayTotalPrice).textContent = `$${commaTotal}`;
