@@ -1,0 +1,49 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+}
+
+table {
+
+    border-spacing: 0.5rem;
+    border-collapse: collapse;
+    border: 1px solid black;
+    table-layout: fixed;
+    width: 90%;
+    margin: 10px auto;
+}
+
+thead {
+    background-color: rgba(74, 111, 165, 0.85);
+    color: white;
+}
+
+th, td {
+    padding: 0.5em;
+    text-align: center;
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(219, 233, 238, 0.6);
+}
+
+button {
+    background-color: rgb(79, 109, 122);
+    color: white;
+    display: block;
+    margin: auto;
+    padding: 0.5em;
+    border-radius: 3px;
+    text-align: center;
+}
+
+img {
+    border-radius: 2px;
+}
