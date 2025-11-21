@@ -1,121 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E Commerce</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<!-- E-Commerce. Create a products display that includes the following:
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- E-Commerce. Create a products display that includes the following:
 Six products, including an image and text fields for product name, short description, longer description, a quantity selector, price, and add-to-cart button.
 Stretch goal: Each product must include a short table that displays prices for Small, Medium, and Large (or similar). -->
-    
 
-<main>
-    <table id="table-body">
+    <main>
+      <table id="table-body">
         <thead>
-            <tr>
-                <th>Image</th>
-                <th>Product Name</th>
-                <th>Short Description</th>
-                <th>Longer Description</th>
-                <th>Quantity</th>
-                <th>Price per Unit</th>
-                <th>Total Price</th>
-                <th>Add to Cart</th>
-            </tr>
+          <tr>
+            <th>Image</th>
+            <th>Product Name</th>
+            <th>Short Description</th>
+            <th>Longer Description</th>
+            <th>Quantity</th>
+            <th>Price per Unit</th>
+            <th>Total Price</th>
+            <th>Add to Cart</th>
+          </tr>
         </thead>
 
         <tbody>
-            <tr>
-                <td><img src="./images/shampoo.jpg" alt="Bottle of shampoo" width="150" height="100"></td>
-                <td>Shampoo</td>
-                <td>Clean your Hair</td>
-                <td>A liquid to clean your hair</td>
-                <td>
-                    <input type="range" id="Shampoo" class="value-slider" name="Shampoo" min="0" max="110" value="0" />
-                    <label for="Shampoo" id="shampoo-total">Quantity</label>
-                </td>
-                <td id="shampoo-price">$5.99</td>
-                <td id="shampoo-total-price">Total Price</td>
-                <td id="shampoo-button"><button type="button">Add to cart</button></td>
-            </tr>
+          <tr>
+            <td>
+              <img
+                src="./images/shampoo.jpg"
+                alt="Bottle of shampoo"
+                width="150"
+                height="100"
+              />
+            </td>
+            <td>Shampoo</td>
+            <td>Clean your Hair</td>
+            <td>A liquid to clean your hair</td>
+            <td>
+              <input
+                type="range"
+                id="Shampoo"
+                class="value-slider"
+                name="Shampoo"
+                min="0"
+                max="110"
+                value="0"
+                aria-label="Shampoo quantity"
+              />
+              <label for="Shampoo" id="shampoo-total">Quantity</label>
+            </td>
+            <td id="shampoo-price">$5.99</td>
+            <td id="shampoo-total-price">Total Price</td>
+            <td id="shampoo-button">
+              <button type="button">Add to cart</button>
+            </td>
+          </tr>
 
-            <tr>
-                <td><img src="./images/fries.jpg" alt="Picture of some fries" width="150" height="100"></td>
-                <td>Fries</td>
-                <td>Food</td>
-                <td>Food made of Potatoes</td>
-                <td>
-                    <input type="range" id="Fries" class="value-slider" name="Fries" min="1" max="1100" value="1" />
-                    <label for="Fries" id="fries-total">Quantity</label>
-                </td>
-                <td id="fries-price">$2.99</td>
-                <td id="fries-total-price">Total Price</td>
-                <td><button type="button">Add to cart</button></td>
-            </tr>
+          <tr>
+            <td>
+              <img
+                src="./images/fries.jpg"
+                alt="Picture of some fries"
+                width="150"
+                height="100"
+              />
+            </td>
+            <td>Fries</td>
+            <td>Food</td>
+            <td>Food made of Potatoes</td>
+            <td>
+              <input
+                type="range"
+                id="Fries"
+                class="value-slider"
+                name="Fries"
+                min="1"
+                max="1100"
+                value="1"
+              />
+              <label for="Fries" id="fries-total">Quantity</label>
+            </td>
+            <td id="fries-price">$2.99</td>
+            <td id="fries-total-price">Total Price</td>
+            <td><button type="button">Add to cart</button></td>
+          </tr>
 
-            <tr>
-                <td><img src="./images/cat.jpg" alt="Picture of a cute cat" width="150" height="100"></td>
-                <td>Cat</td>
-                <td>Pet</td>
-                <td>Boss</td>
-                <td>
-                    <input type="range" id="Cat" class="value-slider" name="Cat" min="5" max="100" value="5" />
-                    <label for="Cat" id="cat-total">Quantity</label>
-                </td>
-                <td id="cat-price">$150.00</td>
-                <td id="cat-total-price">Total Price</td>
-                <td><button type="button">Add to cart</button></td>
-            </tr>
+          <tr>
+            <td>
+              <img
+                src="./images/cat.jpg"
+                alt="Picture of a cute cat"
+                width="150"
+                height="100"
+              />
+            </td>
+            <td>Cat</td>
+            <td>Pet</td>
+            <td>Boss</td>
+            <td>
+              <input
+                type="range"
+                id="Cat"
+                class="value-slider"
+                name="Cat"
+                min="5"
+                max="100"
+                value="5"
+              />
+              <label for="Cat" id="cat-total">Quantity</label>
+            </td>
+            <td id="cat-price">$150.00</td>
+            <td id="cat-total-price">Total Price</td>
+            <td><button type="button">Add to cart</button></td>
+          </tr>
 
-            <tr>
-                <td><img src="./images/hot_wheels.jpg" alt="Picture of some Hot Wheels toys" width="150" height="100"></td>
-                <td>Hot Wheels</td>
-                <td>Toys</td>
-                <td>Toys that are cars</td>
-                <td>
-                    <input type="range" id="Hot-Wheels" class="value-slider" name="Hot-Wheels" min="1" max="50" value="1" />
-                    <label for="Hot-Wheels" id="hot-wheels-total">Quantity</label>
-                </td>
-                <td id="hot-wheels-price">$12.49</td>
-                <td id="hot-wheels-total-price">Total Price</td>
-                <td><button type="button">Add to cart</button></td>
-            </tr>
+          <tr>
+            <td>
+              <img
+                src="./images/hot_wheels.jpg"
+                alt="Picture of some Hot Wheels toys"
+                width="150"
+                height="100"
+              />
+            </td>
+            <td>Hot Wheels</td>
+            <td>Toys</td>
+            <td>Toys that are cars</td>
+            <td>
+              <input
+                type="range"
+                id="Hot-Wheels"
+                class="value-slider"
+                name="Hot-Wheels"
+                min="1"
+                max="50"
+                value="1"
+              />
+              <label for="Hot-Wheels" id="hot-wheels-total">Quantity</label>
+            </td>
+            <td id="hot-wheels-price">$12.49</td>
+            <td id="hot-wheels-total-price">Total Price</td>
+            <td><button type="button">Add to cart</button></td>
+          </tr>
 
-            <tr>
-                <td><img src="./images/clowns.jpg" alt="Picture of some clowns" width="150" height="100"></td>
-                <td>Clowns</td>
-                <td>Ahhh</td>
-                <td>Ahhhhhhhhh</td>
-                <td>
-                    <input type="range" id="Clowns" class="value-slider" name="Clowns" min="12" max="37" value="12" />
-                    <label for="Clowns" id="clowns-total">Quantity</label>
-                </td>
-                <td id="clowns-price">$18.99</td>
-                <td id="clowns-total-price">Total Price</td>
-                <td><button type="button">Add to cart</button></td>
-            </tr>
+          <tr>
+            <td>
+              <img
+                src="./images/clowns.jpg"
+                alt="Picture of some clowns"
+                width="150"
+                height="100"
+              />
+            </td>
+            <td>Clowns</td>
+            <td>Ahhh</td>
+            <td>Ahhhhhhhhh</td>
+            <td>
+              <input
+                type="range"
+                id="Clowns"
+                class="value-slider"
+                name="Clowns"
+                min="12"
+                max="37"
+                value="12"
+              />
+              <label for="Clowns" id="clowns-total">Quantity</label>
+            </td>
+            <td id="clowns-price">$18.99</td>
+            <td id="clowns-total-price">Total Price</td>
+            <td><button type="button">Add to cart</button></td>
+          </tr>
 
-            <tr>
-                <td><img src="./images/water.jpg" alt="Picture of a water molecule" width="150" height="100"></td>
-                <td>Molecules of Water</td>
-                <td>H<sub>2</sub>O</td>
-                <td>It's water</td>
-                <td>
-                    <input type="range" id="Water" class="value-slider" name="Water" min="1000000" max="1000000000" value="1000000" />
-                    <label for="Water" id="water-total">Quantity</label>
-                </td>
-                <td id="water-price">$7.99</td>
-                <td id="water-total-price">Total Price</td>
-                <td><button type="button">Add to cart</button></td>
-            </tr>
-
+          <tr>
+            <td>
+              <img
+                src="./images/water.jpg"
+                alt="Picture of a water molecule"
+                width="150"
+                height="100"
+              />
+            </td>
+            <td>Molecules of Water</td>
+            <td>H<sub>2</sub>O</td>
+            <td>It's water</td>
+            <td>
+              <input
+                type="range"
+                id="Water"
+                class="value-slider"
+                name="Water"
+                min="1000000"
+                max="1000000000"
+                value="1000000"
+              />
+              <label for="Water" id="water-total">Quantity</label>
+            </td>
+            <td id="water-price">$7.99</td>
+            <td id="water-total-price">Total Price</td>
+            <td><button type="button">Add to cart</button></td>
+          </tr>
         </tbody>
-    </table>
-</main>
-</body>
-<script src="app.js"></script>
+      </table>
+    </main>
+  </body>
+  <script src="app.js"></script>
 </html>
