@@ -29,6 +29,10 @@ h2 {
     font-size: 1.25rem;
 }
 
+table {
+    text-align: center;
+}
+
 .action-call {
     text-align: center;
 }
