@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montagu Slab", serif;
+}
+
+p {
+    background-color: aqua;
+    color: blueviolet;
+}
+
+strong {
+    color: brown;
+}
+
+strong:hover {
+    color: #ee2e31;
+    cursor: grab;
+}
+
+h1,
+h2 {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.action-call {
+    text-align: center;
+}
+
+.names {
+    font-family: sans-serif;
+    font-size: larger;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

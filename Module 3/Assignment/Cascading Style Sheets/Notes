@@ -1,0 +1,30 @@
+Assignment Instructions
+
+For this assignment, you will access your local machine or Glitch to create a web page. 
+
+Create a website using Visual Studio Code based on the following requirements. The theme of this page can be any topic that you would feel comfortable presenting to a recruiter or employer. (Note that the goal here is not a creative visual presentation, but simply demonstrating HTML features.)
+
+✓ Create a page file named “products.html” that includes the standard HTML document structure (Control-Spacebar).
+✓ Create a file named “styles.css” and link it in the Head section of products.html.
+
+✓ Add the following features to the products.html page:
+    ✓ Page title and description explaining that the page lists the services or products that are for sale.
+
+✓ List four services (service products) for sale, each with the following details:
+    ✓ Name of service or product, place within a paragraph HTML tag
+    ✓ Price (flat fee or over time), highlighted with the “strong” HTML tag
+    ✓ An image to represent the service (use stock images or image search)
+    ✓ Short product description (10-15 words, original text)
+
+✓ Use multiple paragraph tags in various locations on the page
+✓ Use at least two DIV tags on the page
+
+Add the following elements and styles to the styles.css file and ensure that they affect the products.html page as indicated:
+    ✓ Set the background color for paragraph tags to “aqua”
+    ✓ Set the text color for paragraph tags to “blueviolet”
+    ✓ Set the color of text embraced by the “strong” HTML tag to brown
+    ✓ Add a separate <strong> selector that is modified by the “Hover” pseudo-class, 
+        such that when the user hovers their mouse over the price of a product, it changes to a different background color.
+    ✓ Create a CSS class called “names” (.names), and apply it to the p tags containing the names of the services on the products.html page, with the following attributes:
+        ✓ “Sans Serif” font
+        ✓ Font size set to “Larger”
