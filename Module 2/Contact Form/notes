@@ -1,0 +1,26 @@
+Contact Form
+Purpose
+
+The purpose of this assignment is for you to demonstrate the ability to create a website, which shows that you can develop and maintain an application that builds pages on command.
+
+Assignment Instructions
+
+For this assignment, you will access your local machine or Glitch to create a web page.
+
+Create a website using Visual Studio Code based on the following requirements. The theme of this page can be any topic that you would feel comfortable presenting to a recruiter or employer. (Note that the goal here is not a creative visual presentation, but simply demonstrating HTML features.)
+
+Create a page file named “contact.html” that includes the standard HTML document structure (remember the Control-Space bar trick from Module 1).
+In the page body, create the following sections:
+✓ A Header containing the text “Contact Form”.
+✓ A Footer containing the text “Copyright 2023”.
+✓ A Form between the Header and Footer containing the details listed below.
+✓ Within the Form tag, set the Action attribute to empty (“”) and set the Method attribute to “POST”.
+In the Form section, create the following features using HTML Form tags:
+✓ Text inputs named Name, City and Zip Code.
+✓ Placeholder text for each of the text inputs, and no Value attribute present.
+✓ Unique ID values for each of the text inputs.
+✓ A Checkbox with the Name attribute set to “Confirmed” and the ID attribute set to “Waiver”.
+✓ A Label before the Checkbox with the For attribute set to “Waiver” and displaying the text “Disclaimer acknowledgement.”
+✓ A Drop-down control using the Select tag, with four options of your choice and appropriate display text for a contact form.
+✓ A Text Area with the name set to “Details”, with 5 rows and 60 columns and Placeholder set to “Please type your request here.”
+✓ A submit button with the Value attribute set to “Send”.

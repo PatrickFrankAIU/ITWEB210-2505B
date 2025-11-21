@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <header>Contact Form</header>
+    <section>
+      <form action="" method="post">
+        <div>
+          <label for="firstName">First Name:</label>
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            required
+            placeholder="eg John"
+          />
+        </div>
+        <div>
+          <label for="lastName">Last Name:</label>
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            required
+            placeholder="eg Smith"
+          />
+        </div>
+        <div>
+          <label for="cityInput">City:</label>
+          <input
+            type="text"
+            name="cityInput"
+            id="cityInput"
+            required
+            placeholder="eg. Seattle"
+          />
+        </div>
+        <div>
+          <label for="zipInput">Zip Code:</label>
+          <input
+            type="text"
+            name="zipInput"
+            id="zipInput"
+            required
+            placeholder="eg. 98101"
+          />
+        </div>
+        <div>
+          <label for="Waiver">Disclaimer acknowledgement</label>
+          <input type="checkbox" name="Confirmed" id="Waiver" />
+        </div>
+        <div>
+          <label for="optionsDropdown"></label>
+          <select name="optionsDropdown" id="optionsDropdown">
+            <option value="">--Please choose an option--</option>
+            <option value="Option-1">Option 1</option>
+            <option value="Option-2">Option 2</option>
+            <option value="Option-3">Option 3</option>
+            <option value="Option-4">Option 4</option>
+          </select>
+        </div>
+        <div>
+          <label for="Details">Details:</label>
+          <textarea id="Details" name="Details" rows="5" cols="60">
+            Add any additional details as needed...
+          </textarea>
+        </div>
+        <div>
+          <button type="button">Send</button>
+        </div>
+      </form>
+    </section>
+    <footer>Copyright 2023</footer>
+  </body>
+</html>

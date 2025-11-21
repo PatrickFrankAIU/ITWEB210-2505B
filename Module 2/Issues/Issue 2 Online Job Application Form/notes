@@ -1,0 +1,29 @@
+Objective: Develop an HTML form designed for job applicants to submit their personal information, the position they are applying for, their educational background, and to upload their resume. Additionally, the form should collect reference contact information.
+
+Requirements:
+Applicant Information:
+Create fields for the applicant's name and email address. These are essential for any follow-up communication, so make them required fields.
+
+Position Applied For:
+Include a text input field where applicants can specify the job position they are applying for. This field should also be marked as required to ensure that applicants do not leave it blank.
+
+Education Level:
+Provide a dropdown list <select> for applicants to indicate their highest level of education. The options should include "High School", "Bachelor's", "Master's", and "PhD".
+
+Resume Upload:
+Add a file input field that allows applicants to upload their resume. Specify that only PDF files are acceptable (accept=".pdf"). This field is crucial for evaluating the applicant's qualifications, so make it required.
+
+References:
+Request the name and contact information (phone number) of a reference. Include an input field for the reference's name and a separate input for their contact information, using a suitable input type to encourage proper formatting (e.g., type="tel"). Provide a pattern for the phone number to ensure consistency (e.g., pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" with a title attribute explaining the required format).
+
+Submission:
+Include a submit button with the label "Apply" to allow users to submit their application form.
+
+Tips:
+
+Properly use elements for each input field to ensure the form is accessible. The for attribute of each label should correspond to the id of the related input.
+Utilize the required attribute for mandatory fields (applicant name, email, position applied for, and resume upload) to prevent form submission without this essential information.
+The name attribute is crucial for each form control to ensure the data can be correctly processed when the form is submitted.
+Consider the user's experience when interacting with the form. For example, use placeholder text where appropriate to guide users or to provide examples of the expected input format.
+Deliverables:
+Create a comprehensive HTML document containing the job application form. The form should be structured to collect all necessary information from applicants in a clear and organized manner. While the form does not need to connect to a backend for data processing, it should be fully prepared for user submission, with attention to detail in its layout and field validation requirements.

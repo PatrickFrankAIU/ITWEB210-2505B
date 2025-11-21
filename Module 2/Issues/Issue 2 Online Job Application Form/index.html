@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Job Application</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>Job Application</header>
+    <section>
+      <!-- Applicant Information:
+        Create fields for the applicant's name and email address. 
+        These are essential for any follow-up communication, so make them required fields.     -->
+
+      <div>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" required />
+      </div>
+
+      <div>
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName" required />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+      </div>
+    </section>
+
+    <section>
+      <!-- Position Applied For:
+        Include a text input field where applicants can specify the job position they are applying for. 
+        This field should also be marked as required to ensure that applicants do not leave it blank. -->
+
+      <div>
+        <label for="jobText">Job Position</label>
+        <textarea name="jobText" id="jobText" required>
+            What is it you say you do here...
+        </textarea>
+      </div>
+
+      <div>
+        <!-- Education Level:
+        Provide a dropdown list <select> for applicants to indicate their highest level of education. 
+        The options should include "High School", "Bachelor's", "Master's", and "PhD". -->
+
+        <label for="educationLevel">Education Level</label>
+        <select name="educationLevel" id="educationLevel">
+          <option value="high-school">High School</option>
+          <option value="bachelor">Bachelor's</option>
+          <option value="masters">Master's</option>
+          <option value="phd">PhD</option>
+        </select>
+      </div>
+
+      <div>
+        <!-- Resume Upload:
+        Add a file input field that allows applicants to upload their resume. 
+        Specify that only PDF files are acceptable (accept=".pdf"). 
+        This field is crucial for evaluating the applicant's qualifications, so make it required. -->
+
+        <label for="resumeUpload">Resume</label>
+        <input
+          type="file"
+          name="resumeUpload"
+          id="resumeUpload"
+          accept=".pdf"
+          required
+        />
+      </div>
+
+      <div>
+        <!-- References:
+        Request the name and contact information (phone number) of a reference. 
+        Include an input field for the reference's name and a separate input 
+        for their contact information, using a suitable input type to 
+        encourage proper formatting (e.g., type="tel"). 
+        Provide a pattern for the phone number to 
+        ensure consistency (e.g., pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" with 
+        a title attribute explaining the required format). -->
+
+        <div>
+          <label for="reference">References</label>
+        </div>
+        <div>
+          <label for="reference-name">Name</label>
+          <input type="text" name="reference-name" id="reference-name" />
+        </div>
+        <div>
+          <label for="reference-phone">Phone Number</label>
+          <input
+            type="tel"
+            name="reference-phone"
+            id="reference-phone"
+            title="555-123-4567"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          />
+        </div>
+      </div>
+
+      <div>
+        <!-- Submission:
+        Include a submit button with the label "Apply" to allow users to submit their application form. -->
+        <button type="submit">Apply</button>
+      </div>
+    </section>
+    <script src="app.js" async defer></script>
+  </body>
+</html>
