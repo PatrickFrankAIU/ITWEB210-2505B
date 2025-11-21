@@ -1,0 +1,27 @@
+Objective: Develop an HTML form that allows students to provide feedback on a course they've attended. The form should collect information on the course and instructor, rate the course experience, and gather open-ended feedback and suggestions for improvement.
+
+Requirements:
+
+Course and Instructor Information:
+Create fields for the course name and the instructor's name. These fields help in identifying the specific course and instructor being reviewed. Make these fields required to ensure every feedback submission is properly categorized.
+
+Course Rating:
+Implement a slider () to allow students to rate the course on a scale, for example, from 1 to 5. Include labels or text nearby to indicate what each end of the scale represents (e.g., "1 = Poor, 5 = Excellent").
+
+General Feedback:
+Add a textarea for students to write their general feedback about the course. This open-ended question allows for detailed responses and insights into the student's experience.
+
+Suggestions for Improvement:
+Provide an input field with an associated datalist for suggestions on how to improve the course. The datalist should include common suggestions such as "More hands-on exercises", "Additional study materials", and "More interactive sessions". This setup encourages specific feedback while also allowing for custom input.
+
+Submission:
+Include a submit button with the label "Submit Feedback" to allow users to send their responses.
+
+Tips:
+
+Use elements with appropriate for attributes to ensure each part of the form is accessible and clearly described.
+For the course rating, consider providing visual indicators or a legend to explain the scale, enhancing the usability of the slider element.
+Make sure the name attribute is properly set for each form control to facilitate data collection and processing.
+Encourage detailed and constructive feedback by providing examples or prompts within the textarea and input fields (e.g., using placeholder text).
+Deliverables:
+Create an HTML document containing the feedback form. The form should be intuitively designed, making it easy for students to provide comprehensive feedback on their course experience. While the backend processing of the form is beyond this exercise's scope, the form itself should be fully prepared for user interaction and data submission.

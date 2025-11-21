@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>a boutique hotel</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <section>
+        <!-- Guest Information:
+        Include fields for the guest's name. 
+        This field is essential for personalizing the guest's stay and should be marked as required. -->
+        <div>
+          <label for="guest-name">Name of Guest</label>
+          <input type="text" name="guest-name" id="guest-name" required />
+        </div>
+      </section>
+
+      <section>
+        <!-- Dates of Stay:
+        Provide input fields for guests to select their check-in and check-out dates. 
+        Use the type="date" input to ensure users can easily select dates. 
+        Both fields should be required to avoid incomplete bookings. -->
+
+        <div>
+          <label for="check-in">Check In</label>
+          <input type="date" name="check-in" id="check-in" required />
+        </div>
+
+        <div>
+          <label for="check-out">Check Out</label>
+          <input type="date" name="check-out" id="check-out" required />
+        </div>
+      </section>
+      <section>
+        <!-- Room Type Selection:
+        Implement a dropdown list <select> that allows guests to choose the type of room they wish to book. 
+        Options should include "Single", "Double", and "Suite". -->
+
+        <div>
+          <label for="room-select">Select your room</label>
+          <select name="room-select" id="room-select">
+            <option value="">--Please select an option--</option>
+            <option value="Single">Single</option>
+            <option value="Double">Double</option>
+            <option value="Suite">Suite</option>
+          </select>
+        </div>
+      </section>
+      <section>
+        <!-- Special Requests:
+        Add a textarea field for guests to enter any special requests they might have for their stay 
+        (e.g., late check-in, high floor preference). While this field offers customization for the guest's stay, 
+        it should not be marked as required, allowing for optional input. -->
+        <div>
+          <label for="special-requests">Special Requests</label>
+          <textarea
+            name="special-requests"
+            id="special-requests"
+            cols="30"
+            rows="5"
+          >
+        (e.g., late check-in, high floor preference)
+        </textarea
+          >
+        </div>
+      </section>
+      <section>
+        <!-- Estimated Arrival Time:
+        Include a field where guests can indicate their estimated time of arrival using type="time". 
+        This information can help the hotel better prepare for guest arrivals. -->
+        <div>
+          <label for="arrival-time">Estimated Arrival Time</label>
+          <input type="time" name="arrival-time" id="arrival-time" />
+        </div>
+      </section>
+      <section>
+        <!-- Submission:
+        Provide a submit button labeled "Book Now" to finalize the booking process. -->
+        <button type="submit">Book Now</button>
+      </section>
+    </div>
+    <script src="app.js" async defer></script>
+  </body>
+</html>

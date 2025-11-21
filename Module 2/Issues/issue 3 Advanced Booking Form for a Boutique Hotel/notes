@@ -1,0 +1,30 @@
+Objective: Construct an HTML form that allows potential guests to book their stay at a boutique hotel. The form should collect personal information, accommodation preferences, dates of stay, and any special requests.
+
+Requirements:
+
+Guest Information:
+Include fields for the guest's name. This field is essential for personalizing the guest's stay and should be marked as required.
+
+Dates of Stay:
+Provide input fields for guests to select their check-in and check-out dates. Use the type="date" input to ensure users can easily select dates. Both fields should be required to avoid incomplete bookings.
+
+Room Type Selection:
+Implement a dropdown list <select> that allows guests to choose the type of room they wish to book. Options should include "Single", "Double", and "Suite".
+
+Special Requests:
+Add a textarea field for guests to enter any special requests they might have for their stay (e.g., late check-in, high floor preference). While this field offers customization for the guest's stay, it should not be marked as required, allowing for optional input.
+
+Estimated Arrival Time:
+Include a field where guests can indicate their estimated time of arrival using type="time". This information can help the hotel better prepare for guest arrivals.
+
+Submission:
+Provide a submit button labeled "Book Now" to finalize the booking process.
+
+Tips:
+
+Ensure each input field is accompanied by an appropriate , enhancing form accessibility and usability. The for attribute of the label should match the id of the corresponding input field.
+Use the required attribute on essential fields (guest name, check-in and check-out dates, room type) to ensure the form collects all necessary information for the booking.
+The name attribute on each form element is crucial for identifying form data upon submission.
+Consider the form's layout and how each element contributes to a seamless user experience. Guide users with clear instructions or placeholder text where applicable.
+Deliverables:
+Craft an HTML document that features the booking form described. The form should be intuitive and user-friendly, structured to capture all pertinent details for a guest's stay at the boutique hotel. While the backend processing of the form is not required for this exercise, the form should be complete and ready for user interaction.
