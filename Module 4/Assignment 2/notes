@@ -23,7 +23,7 @@ Create a website using Visual Studio Code based on the following requirements. T
         √ Set flex-direction to row.
         √ Other settings are at your discretion.
     √ Create a page file named “media.html” that includes the standard HTML document structure (Control-Spacebar). (This page will show images of various products in use.)
-    Create a grid container (div) to display 6 images in a 2-column layout.
+    √ Create a grid container (div) to display 6 images in a 2-column layout.
     Add the following CSS tags to the styles.css file:
         √ Create a container called “media-container”.
         √ Set the display to grid.
