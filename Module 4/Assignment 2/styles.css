@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.team-img {
+    height: 200px;
+    width: auto;
+}
+
+/* Set justify-content to center.
+        Set flex-direction to row.
+        Other settings are at your discretion. */
+
+.teamdisplay {
+    display: flex;
+    border: 2px black solid;
+    background-color: #3C4F76;
+    color: #DDDBF1;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.media-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 90px));
+    background-color: lightgreen;
+    text-align: center;
+    padding: 20px;
+    border: 2px blue solid;
+}

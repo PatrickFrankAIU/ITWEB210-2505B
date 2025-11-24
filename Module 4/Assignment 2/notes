@@ -1,0 +1,36 @@
+Assignment Instructions
+
+For this assignment, you will access your local machine or Glitch to create a web page.
+
+Create a website using Visual Studio Code based on the following requirements. The theme of this page can be any topic that you would feel comfortable presenting to a recruiter or employer. (Note that the goal here is not a creative visual presentation, but simply demonstrating HTML features.)
+
+    √ Create a page file named “ourteam.html” that includes the standard HTML document structure (Control-Spacebar).
+    √ Create a file named “styles.css” and link it in the Head section of ourteam.html.
+    Add the following features to the ourteam.html page:
+        √ Create a div-based container (flexbox) to display the members of the team.
+            √ Set the ID for the container to “teamdisplay”.
+        √ Create divs to display 4 team members, each with the following details:
+            √ Name
+            √ Image (use images of people from Google Image Search Links to an external site.)
+            √ Department, Role, or Title
+            √ Brief Description (10-12 words)
+            √ Email Address
+    Add the following CSS tags to the styles.css file:
+        √ Create a flexbox for the container “teamdisplay”.
+        √ Using flexbox settings, display each member of the team with a background color and text color.
+        √ Leave a 10px gap between each member of the team in the display.
+        √ Set justify-content to center.
+        √ Set flex-direction to row.
+        √ Other settings are at your discretion.
+    √ Create a page file named “media.html” that includes the standard HTML document structure (Control-Spacebar). (This page will show images of various products in use.)
+    Create a grid container (div) to display 6 images in a 2-column layout.
+    Add the following CSS tags to the styles.css file:
+        √ Create a container called “media-container”.
+        √ Set the display to grid.
+        √ Set column widths to a max size of 90 pixels.
+        √ Set a background color of light green.
+        √ Align text to center.
+        √ Set padding of 20 pixels.
+        √ Set a border color of blue and a border width of 2 pixels.
+
+Note: Any unspecified details are at the discretion of the student.
