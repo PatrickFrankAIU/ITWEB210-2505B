@@ -1,0 +1,80 @@
+Requirements (this is just a summary; see instructions below) • Style a form
+that includes various fields (text inputs, radio buttons, checkboxes). • Use the
+:focus pseudoclass to change the border and background color of input fields
+when they are focused. • Utilize the :checked pseudoclass to style radio buttons
+and checkboxes differently when they are selected. • Apply the :invalid and
+:valid pseudoclasses to provide visual feedback on input validation. For
+example, outline text inputs in green (:valid) or red (:invalid) depending on
+their content validity according to their required attribute. • Create an
+ordered or unordered list of items (e.g., a list of books, articles, or any
+topic of interest). • Use the :first-child and :last-child pseudoclasses to
+style the first and last items of the list distinctly. • Implement the
+:nth-child pseudoclass to style even and odd items differently for a
+zebra-striping effect. • Optionally, use the :not() pseudoclass to exclude
+certain items from being styled by other rules, adding complexity and variety to
+your styling. Instructions: HTML Setup: • Use the provided HTML (see below), or
+create a basic HTML structure with a element containing various types of inputs
+and a ul or ol list with at least 10 items. CSS Styling: • Write CSS rules
+targeting the form inputs using :focus, :checked, :invalid, and :valid
+pseudoclasses. • Style the list using :first-child, :last-child, :nth-child, and
+optionally :not() pseudoclasses for advanced styling. Validation and Feedback: •
+Ensure that form inputs have appropriate type attributes and required attributes
+where necessary to make use of the :invalid and :valid pseudoclasses
+effectively. Deliverable: Submit the HTML and CSS files. The web page should
+visually distinguish form inputs based on their state (focus, checked, validity)
+and create a visually appealing list that demonstrates mastery of structural
+pseudoclasses.
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced CSS Exercise</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form id="feedback-form">
+      <h2>Feedback Form</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <fieldset>
+        <legend>Service Rating:</legend>
+        <label
+          ><input type="radio" name="rating" value="excellent" required />
+          Excellent</label
+        >
+        <label><input type="radio" name="rating" value="good" /> Good</label>
+        <label
+          ><input type="radio" name="rating" value="average" /> Average</label
+        >
+        <label><input type="radio" name="rating" value="poor" /> Poor</label>
+      </fieldset>
+
+      <label
+        ><input type="checkbox" name="subscribe" value="yes" /> Subscribe to
+        newsletter</label
+      >
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <h2>Favorite Books</h2>
+    <ul>
+      <li>The Great Gatsby</li>
+      <li>1984</li>
+      <li>To Kill a Mockingbird</li>
+      <li>The Catcher in the Rye</li>
+      <li>The Lord of the Rings</li>
+      <li>Pride and Prejudice</li>
+      <li>Harry Potter Series</li>
+      <li>Moby Dick</li>
+      <li>War and Peace</li>
+      <li>Hamlet</li>
+    </ul>
+  </body>
+</html>
