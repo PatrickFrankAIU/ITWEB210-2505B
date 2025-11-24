@@ -1,5 +1,5 @@
 Requirements: (this is just a summary; see instructions below) 
-  Style a form that includes various fields (text inputs, radio buttons, checkboxes). 
+  √ Style a form that includes various fields (text inputs, radio buttons, checkboxes). 
   Use the :focus pseudoclass to change the border and background color of input fields when they are focused. 
   Utilize the :checked pseudoclass to style radio buttons and checkboxes differently when they are selected. 
   Apply the :invalid and :valid pseudoclasses to provide visual feedback on input validation. 
@@ -10,7 +10,7 @@ Requirements: (this is just a summary; see instructions below)
   Optionally, use the :not() pseudoclass to exclude certain items from being styled by other rules, adding complexity and variety to your styling. 
 
 Instructions: HTML Setup:
-  Use the provided HTML (see below), or create a basic HTML structure with an element containing various types of inputs and a ul or ol list with at least 10 items. 
+  √ Use the provided HTML (see below), or create a basic HTML structure with an element containing various types of inputs and a ul or ol list with at least 10 items. 
   
 CSS Styling: 
   Write CSS rules targeting the form inputs using :focus, :checked, :invalid, and :valid pseudoclasses. 
