@@ -4,10 +4,41 @@
     box-sizing: border-box;
 }
 
-form {
+/* form inputs using :focus, :checked, :invalid, and :valid pseudoclasses.  */
+
+.text-input {
     border: 2px solid black;
+    margin: auto;
+    padding: 20px;
 }
 
-form:focus {
-    font-size: 1.5rem;
+.first-box {
+    padding: 10px;
+    width: 25%;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 5px;
 }
+
+.first-box:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+}
+
+legend {
+    background-color: darkcyan;
+    color: white;
+    padding: 3px;
+}
+
+.radio-input {
+    margin: 0.5rem;
+}
+
+
+/* #feedback-form:focus {}
+
+#feedback-form:checked {}
+
+#feedback-form:invalid {}
+
+#feeback-form:valid {} */

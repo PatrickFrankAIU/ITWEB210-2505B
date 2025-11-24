@@ -12,11 +12,19 @@
   <body>
     <form id="feedback-form">
       <h2>Feedback Form</h2>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required />
+      <div class="text-input">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" class="first-box" required />
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="first-box"
+          required
+        />
+      </div>
 
       <fieldset>
         <legend>Service Rating:</legend>
@@ -24,11 +32,23 @@
           ><input type="radio" name="rating" value="excellent" required />
           Excellent</label
         >
-        <label><input type="radio" name="rating" value="good" /> Good</label>
         <label
-          ><input type="radio" name="rating" value="average" /> Average</label
+          ><input type="radio" name="rating" value="good" class="radio-input" />
+          Good</label
         >
-        <label><input type="radio" name="rating" value="poor" /> Poor</label>
+        <label
+          ><input
+            type="radio"
+            name="rating"
+            value="average"
+            class="radio-input"
+          />
+          Average</label
+        >
+        <label
+          ><input type="radio" name="rating" value="poor" class="radio-input" />
+          Poor</label
+        >
       </fieldset>
 
       <label
